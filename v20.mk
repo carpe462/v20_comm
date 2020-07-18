@@ -41,9 +41,9 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
-# Camera
-PRODUCT_PACKAGES += \
-    libshim_bwfocus
+# # Camera
+# PRODUCT_PACKAGES += \
+#     libshim_bwfocus
 
 # Fingerprint
 PRODUCT_PACKAGES += \
